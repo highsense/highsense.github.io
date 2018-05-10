@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            Blog of Highsense
+description:      Think,Code,Talk more or less.
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
@@ -9,10 +9,10 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Highsense
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  bio:            "Think,Code,Talk more or less."
+  email:          hisenseme@126.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -26,7 +26,7 @@ owner:
   google_plus:
 
 # Background image to be tiled on all pages
-background: 
+background:https://drscdn.500px.org/photo/122431381/q%3D80_m%3D2000/v2?user_id=14284287&webp=true&sig=b5d382bda3536b940c96aab238432e737009faad028cbbb1431549ef8f19d031
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
@@ -35,7 +35,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Shanghai
 future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown
