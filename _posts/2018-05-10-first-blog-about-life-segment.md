@@ -4,10 +4,6 @@ title: "对任务调度框架未来方向的思考"
 description: "but I'm lazy"
 tags: [任务调度, Java,OSGi,jigsaw]
 modified: 2018-05-10
-image:
-  feature: abstract-7.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 这个任务调度框架应该做成一个类库，还是做成一个平台，这是一个需要明确的问题。
