@@ -26,8 +26,7 @@ owner:
   google_plus:
 
 # Background image to be tiled on all pages
-background: https://drscdn.500px.org/photo/122431381/q%3D80_m%3D2000/v2?user_id=14284287&webp=true&sig=b5d382bda3536b940c96aab238432e737009faad028cbbb1431549ef8f19d031
-
+background: 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
 google_verify:      
@@ -43,7 +42,7 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-feed
+#  - jekyll-feed
 sass:
   sass_dir: _sass
   style: compressed
