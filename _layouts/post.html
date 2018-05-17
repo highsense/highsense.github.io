@@ -5,6 +5,8 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include head.html %}
+  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 </head>
 
 <body id="post" {% if page.image.feature %}class="feature"{% endif %}>
@@ -50,6 +52,20 @@
     </div><!-- /.entry-content -->
     {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
     {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
+    <div id="gitmentContainer"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+      var gitment = new Gitment({
+        owner: 'highsense',
+        repo: 'highsense.github.io',
+        oauth: {
+          client_id: 'a109cb8708521e332ada',
+          client_secret: '8d17323a116285ffa0a28036cc488fc8043d2a0b',
+        },
+      });
+      gitment.render('gitmentContainer');
+    </script>
   </article>
 </div><!-- /#main -->
 
